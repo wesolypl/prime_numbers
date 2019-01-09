@@ -33,7 +33,7 @@ const findPrimeNumbers = (n) => {
             prime.push(i);
         }
     }
-    viewPrimeNumbers(prime, number)
+    return viewPrimeNumbers(prime, number)
 }
 
 const viewPrimeNumbers = (primeNumbers, number) => {
